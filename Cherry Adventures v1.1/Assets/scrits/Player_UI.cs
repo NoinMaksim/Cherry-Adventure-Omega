@@ -27,9 +27,7 @@ public class Player_UI : MonoBehaviour
 
     }
 
-    /// <summary>
-    /// ��������� � ��������� ��������� �� ������
-    /// </summary>
+    
     public void Renderfertilizers()
     {
         fertilizersText.text = Qualityfertilizers.ToString();
