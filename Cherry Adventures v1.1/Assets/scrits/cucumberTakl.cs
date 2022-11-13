@@ -235,7 +235,7 @@ public class cucumberTakl : MonoBehaviour
         Cucumber.SetActive(false);
         hero.Artur(true);
         fertilisers.Init_Fertilizers(quantidyFertilizers,Fertilizer_Prefab);
-        flylevel1.InitializeteFly(new Vector2(9, 2.3f));
+        flylevel1.InitializeteFly();
         
     }
 
