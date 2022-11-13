@@ -43,6 +43,7 @@ public class cucumberTakl : MonoBehaviour
     private string Udacha = "";
     
     [SerializeField] private Fertilisers fertilisers;
+    [SerializeField] private Flylevel1 flylevel1; 
     private void Awake()
     {
         
@@ -103,9 +104,12 @@ public class cucumberTakl : MonoBehaviour
     float x = 10;
     void Update()
     {
+        if (Input.GetKeyDown(KeyCode.F2))
+        {
+            End();
+        }
         if (Input.GetKeyDown(KeyCode.F1))
         {
-
            fertilisers.Init_Fertilizers(quantidyFertilizers,Fertilizer_Prefab);
         }
     }
@@ -231,6 +235,7 @@ public class cucumberTakl : MonoBehaviour
         Cucumber.SetActive(false);
         hero.Artur(true);
         fertilisers.Init_Fertilizers(quantidyFertilizers,Fertilizer_Prefab);
+        flylevel1.InitializeteFly(new Vector2(9, 2.3f));
         
     }
 
