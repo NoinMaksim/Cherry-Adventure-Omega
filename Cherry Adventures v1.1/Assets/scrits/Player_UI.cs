@@ -40,6 +40,6 @@ public class Player_UI : MonoBehaviour
 
     public void Skils_Menu()
     {
-        //SceneManager.LoadScene("Skils_Scene");
+       SceneManager.LoadScene("Skils_Scene");
     }
 }
