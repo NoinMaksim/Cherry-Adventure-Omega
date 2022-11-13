@@ -15,7 +15,7 @@ H:/Lesha/unity/Cherry-Adventure-Omega/Cherry Adventures v1.1
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-56225
+55214
 Successfully changed project path to: H:/Lesha/unity/Cherry-Adventure-Omega/Cherry Adventures v1.1
 H:/Lesha/unity/Cherry-Adventure-Omega/Cherry Adventures v1.1
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ H:/Lesha/unity/Cherry-Adventure-Omega/Cherry Adventures v1.1
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 123.65 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 120.20 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.2f1 (d6360bedb9a0)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.2f1/Editor/Data/Resources/UnitySubsystems
@@ -63,7 +63,7 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.2f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.2f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56312
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56388
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.2f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
@@ -71,7 +71,7 @@ Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.2f1/E
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.2f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.2f1/Editor/Data/PlaybackEngines/AppleTVSupport/UnityEditor.AppleTV.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.015714 seconds.
+Registered in 0.011012 seconds.
 Native extension for WindowsStandalone target not found
 [usbmuxd] Start listen thread
 [usbmuxd] Listen thread started
@@ -83,39 +83,39 @@ Native extension for AppleTV target not found
 Native extension for iOS target not found
 Native extension for Android target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 125.10 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 120.85 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.875 seconds
+- Completed reload, in  0.843 seconds
 Domain Reload Profiling:
-	ReloadAssembly (876ms)
-		BeginReloadAssembly (94ms)
+	ReloadAssembly (844ms)
+		BeginReloadAssembly (92ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (636ms)
-			LoadAssemblies (94ms)
+		EndReloadAssembly (614ms)
+			LoadAssemblies (92ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (133ms)
+			SetupTypeCache (134ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (46ms)
-			SetupLoadedEditorAssemblies (396ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (379ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (89ms)
+				InitializePlatformSupportModulesInManaged (85ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (125ms)
+				RefreshPlugins (121ms)
 				BeforeProcessingInitializeOnLoad (2ms)
-				ProcessInitializeOnLoadAttributes (122ms)
-				ProcessInitializeOnLoadMethodAttributes (58ms)
+				ProcessInitializeOnLoadAttributes (118ms)
+				ProcessInitializeOnLoadMethodAttributes (52ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.009042 seconds.
+Registered in 0.008826 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image H:\Lesha\unity\Cherry-Adventure-Omega\Cherry Adventures v1.1\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image H:\Lesha\unity\Cherry-Adventure-Omega\Cherry Adventures v1.1\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
@@ -124,46 +124,46 @@ Native extension for AppleTV target not found
 Native extension for iOS target not found
 Native extension for Android target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 122.62 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 204.37 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.581 seconds
+- Completed reload, in  1.673 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1582ms)
-		BeginReloadAssembly (232ms)
+	ReloadAssembly (1674ms)
+		BeginReloadAssembly (240ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (11ms)
+			DisableScriptedObjects (12ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (139ms)
-		EndReloadAssembly (1207ms)
-			LoadAssemblies (84ms)
+			CreateAndSetChildDomain (120ms)
+		EndReloadAssembly (1297ms)
+			LoadAssemblies (112ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (300ms)
+			SetupTypeCache (286ms)
 			ReleaseScriptCaches (1ms)
 			RebuildScriptCaches (78ms)
-			SetupLoadedEditorAssemblies (662ms)
+			SetupLoadedEditorAssemblies (775ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (40ms)
+				InitializePlatformSupportModulesInManaged (35ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (123ms)
-				BeforeProcessingInitializeOnLoad (133ms)
-				ProcessInitializeOnLoadAttributes (297ms)
-				ProcessInitializeOnLoadMethodAttributes (57ms)
-				AfterProcessingInitializeOnLoad (13ms)
+				RefreshPlugins (204ms)
+				BeforeProcessingInitializeOnLoad (149ms)
+				ProcessInitializeOnLoadAttributes (315ms)
+				ProcessInitializeOnLoadMethodAttributes (59ms)
+				AfterProcessingInitializeOnLoad (12ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
 Refreshing native plugins compatible for Editor in 0.48 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 4085 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 37 unused Assets / (30.2 KB). Loaded Objects now: 4545.
-Memory consumption went from 153.9 MB to 153.8 MB.
-Total: 2.201100 ms (FindLiveObjects: 0.199500 ms CreateObjectMapping: 0.101300 ms MarkObjects: 1.878100 ms  DeleteObjects: 0.021400 ms)
+Memory consumption went from 154.0 MB to 153.9 MB.
+Total: 2.187500 ms (FindLiveObjects: 0.208800 ms CreateObjectMapping: 0.103400 ms MarkObjects: 1.851300 ms  DeleteObjects: 0.023000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -177,74 +177,62 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 4278.988176 seconds.
-  path: Assets/Materials/money
-  artifactKey: Guid(cd14fc778da74564ea308aa52e0d49fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/money using Guid(cd14fc778da74564ea308aa52e0d49fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2ac10c29829f790abc6d64513dd4c81') in 0.007426 seconds 
+  Time since last request: 18474.173810 seconds.
+  path: Assets/Materials/IdleCherry/стойка черри_00000.png
+  artifactKey: Guid(9f00cb23abe19cd4fa74fc4f782d3837) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/IdleCherry/стойка черри_00000.png using Guid(9f00cb23abe19cd4fa74fc4f782d3837) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47ba5eaca83b8f89f776cae3d73983da') in 0.272954 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 20.900829 seconds.
-  path: Assets/Materials/money/money_1_00000.png
-  artifactKey: Guid(02c3f6b63880de948afeaf059a956667) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/money/money_1_00000.png using Guid(02c3f6b63880de948afeaf059a956667) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a601a1fce4215f5469384de1cccaa00') in 0.221261 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Materials/money/money_1_00014.png
-  artifactKey: Guid(b3986b4f5d474d242bde7e505d095f47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/money/money_1_00014.png using Guid(b3986b4f5d474d242bde7e505d095f47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a2515e3faae1b52881c2d8413051b3c') in 0.077880 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Materials/money/money_1_00010.png
-  artifactKey: Guid(2bb1e5457bbdd1043a776a7ddfad1ecd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/money/money_1_00010.png using Guid(2bb1e5457bbdd1043a776a7ddfad1ecd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '671f2175feba37dbc3d7caea4d7185d8') in 0.101509 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Materials/money/money_1_00016.png
-  artifactKey: Guid(a0d4fcee059e6494099e4c7b94f2d1b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/money/money_1_00016.png using Guid(a0d4fcee059e6494099e4c7b94f2d1b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48f857a01d09940a0cb7900d7367fda3') in 0.074787 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Materials/money/money_1_00013.png
-  artifactKey: Guid(94c77a331cf31404085cdb6aefd98854) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/money/money_1_00013.png using Guid(94c77a331cf31404085cdb6aefd98854) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e8e527bab8c62000665c97693c20a3b') in 0.070789 seconds 
+  Time since last request: 0.000026 seconds.
+  path: Assets/Materials/IdleCherry
+  artifactKey: Guid(bbb6bd950d42ef649be7dd929d8f1def) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/IdleCherry using Guid(bbb6bd950d42ef649be7dd929d8f1def) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '418f20264c7e267e225a59eb4bf54ac5') in 0.001109 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000032 seconds.
-  path: Assets/Materials/money/money_1_00008.png
-  artifactKey: Guid(23f5448fe242c1849a135b669e9c0246) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/money/money_1_00008.png using Guid(23f5448fe242c1849a135b669e9c0246) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1c74dd01ea4b92832ed89ca2fa0ddc9') in 0.065250 seconds 
+  path: Assets/Materials/IdleCherry/стойка черри_00014.png
+  artifactKey: Guid(ca16af9ec1f32624d964c7010beec23b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/IdleCherry/стойка черри_00014.png using Guid(ca16af9ec1f32624d964c7010beec23b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c111993bcf456141d828edb96b76a446') in 0.095361 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Materials/money/money_1_00009.png
-  artifactKey: Guid(842d2ee661752f64193fa8c3ca53451a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/money/money_1_00009.png using Guid(842d2ee661752f64193fa8c3ca53451a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58865f466b5bc96e59e6fff8102a8213') in 0.065049 seconds 
+  Time since last request: 0.000020 seconds.
+  path: Assets/Materials/IdleCherry/стойка черри_00010.png
+  artifactKey: Guid(caec2c5f4ef1f8c479d0141373cf8eff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/IdleCherry/стойка черри_00010.png using Guid(caec2c5f4ef1f8c479d0141373cf8eff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6067ba7c6b95db25537a145ff4154919') in 0.095269 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Materials/money/money_1_00003.png
-  artifactKey: Guid(3d0b0263d28bc3d4cb638827cb6a4a99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/money/money_1_00003.png using Guid(3d0b0263d28bc3d4cb638827cb6a4a99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '690661f82f6676ce3d6980d8bfa740a0') in 0.071847 seconds 
+  Time since last request: 0.000025 seconds.
+  path: Assets/Materials/IdleCherry/стойка черри_00011.png
+  artifactKey: Guid(2d677abbb486d234a99cae1ed1fdb64b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/IdleCherry/стойка черри_00011.png using Guid(2d677abbb486d234a99cae1ed1fdb64b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9283791365a175441def5a57ed1e0144') in 0.087928 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Materials/IdleCherry/стойка черри_00003.png
+  artifactKey: Guid(afbf4a38353f55744a7087376bc614fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/IdleCherry/стойка черри_00003.png using Guid(afbf4a38353f55744a7087376bc614fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49cca2199d224ae33d1845f693ab3b25') in 0.066932 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Materials/IdleCherry/стойка черри_00006.png
+  artifactKey: Guid(53c08b4174351a74e8b37ff082d59382) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/IdleCherry/стойка черри_00006.png using Guid(53c08b4174351a74e8b37ff082d59382) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a7437006e7542cb91e554b6e95138d3') in 0.084268 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Materials/IdleCherry/стойка черри_00007.png
+  artifactKey: Guid(ff3da430b4a97fb4e85bad0fd75572e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/IdleCherry/стойка черри_00007.png using Guid(ff3da430b4a97fb4e85bad0fd75572e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b77913a61f1be6a0a9ca6d855ed086d') in 0.125475 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000035 seconds.
-  path: Assets/Materials/money/money_1_00007.png
-  artifactKey: Guid(71d46d241291c154e80664eb309b0961) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/money/money_1_00007.png using Guid(71d46d241291c154e80664eb309b0961) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80d245618f60381abb48c222bb2fc881') in 0.114717 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Materials/money/money_1_00006.png
-  artifactKey: Guid(7bd3573950614b548beeca73526eee15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/money/money_1_00006.png using Guid(7bd3573950614b548beeca73526eee15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad014bd1d7b41821f366bb7c46122acd') in 0.066937 seconds 
+  path: Assets/Materials/IdleCherry/стойка черри_00002.png
+  artifactKey: Guid(ee8d4ccf7e9b0834faaba7fe03ca16bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/IdleCherry/стойка черри_00002.png using Guid(ee8d4ccf7e9b0834faaba7fe03ca16bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b7dd2ac5600f1f377382e056ba37759') in 0.082307 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.013183 seconds.
+Registered in 0.007556 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image H:\Lesha\unity\Cherry-Adventure-Omega\Cherry Adventures v1.1\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image H:\Lesha\unity\Cherry-Adventure-Omega\Cherry Adventures v1.1\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
@@ -253,43 +241,43 @@ Native extension for AppleTV target not found
 Native extension for iOS target not found
 Native extension for Android target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.83 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 0.77 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.030 seconds
+- Completed reload, in  2.080 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2031ms)
-		BeginReloadAssembly (263ms)
+	ReloadAssembly (2081ms)
+		BeginReloadAssembly (270ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (25ms)
+			DisableScriptedObjects (9ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (63ms)
-		EndReloadAssembly (1596ms)
-			LoadAssemblies (173ms)
+			CreateAndSetChildDomain (78ms)
+		EndReloadAssembly (1629ms)
+			LoadAssemblies (176ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (453ms)
+			SetupTypeCache (480ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (104ms)
-			SetupLoadedEditorAssemblies (763ms)
+			RebuildScriptCaches (91ms)
+			SetupLoadedEditorAssemblies (814ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (77ms)
+				InitializePlatformSupportModulesInManaged (90ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (146ms)
-				ProcessInitializeOnLoadAttributes (435ms)
-				ProcessInitializeOnLoadMethodAttributes (87ms)
-				AfterProcessingInitializeOnLoad (16ms)
+				BeforeProcessingInitializeOnLoad (199ms)
+				ProcessInitializeOnLoadAttributes (430ms)
+				ProcessInitializeOnLoadMethodAttributes (80ms)
+				AfterProcessingInitializeOnLoad (12ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (14ms)
+			AwakeInstancesAfterBackupRestoration (23ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.64 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 2.62 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 4061 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 25 unused Assets / (24.7 KB). Loaded Objects now: 4554.
-Memory consumption went from 156.3 MB to 156.3 MB.
-Total: 4.978800 ms (FindLiveObjects: 0.412100 ms CreateObjectMapping: 0.159500 ms MarkObjects: 4.377100 ms  DeleteObjects: 0.028900 ms)
+Unloading 25 unused Assets / (24.6 KB). Loaded Objects now: 4554.
+Memory consumption went from 156.4 MB to 156.4 MB.
+Total: 3.418900 ms (FindLiveObjects: 0.421400 ms CreateObjectMapping: 0.152200 ms MarkObjects: 2.819700 ms  DeleteObjects: 0.024600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -304,7 +292,7 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.005501 seconds.
+Registered in 0.009352 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image H:\Lesha\unity\Cherry-Adventure-Omega\Cherry Adventures v1.1\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image H:\Lesha\unity\Cherry-Adventure-Omega\Cherry Adventures v1.1\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
@@ -313,43 +301,43 @@ Native extension for AppleTV target not found
 Native extension for iOS target not found
 Native extension for Android target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.98 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 0.81 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.050 seconds
+- Completed reload, in  1.709 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2051ms)
-		BeginReloadAssembly (252ms)
+	ReloadAssembly (1710ms)
+		BeginReloadAssembly (212ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (10ms)
+			DisableScriptedObjects (12ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (54ms)
-		EndReloadAssembly (1640ms)
-			LoadAssemblies (225ms)
+			CreateAndSetChildDomain (45ms)
+		EndReloadAssembly (1336ms)
+			LoadAssemblies (153ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (441ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (90ms)
-			SetupLoadedEditorAssemblies (809ms)
+			SetupTypeCache (380ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (95ms)
+			SetupLoadedEditorAssemblies (649ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (70ms)
+				InitializePlatformSupportModulesInManaged (58ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (180ms)
-				ProcessInitializeOnLoadAttributes (461ms)
-				ProcessInitializeOnLoadMethodAttributes (85ms)
-				AfterProcessingInitializeOnLoad (11ms)
+				BeforeProcessingInitializeOnLoad (153ms)
+				ProcessInitializeOnLoadAttributes (344ms)
+				ProcessInitializeOnLoadMethodAttributes (82ms)
+				AfterProcessingInitializeOnLoad (10ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (15ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.78 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 2.11 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 4061 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 25 unused Assets / (24.7 KB). Loaded Objects now: 4557.
+Unloading 25 unused Assets / (24.6 KB). Loaded Objects now: 4557.
 Memory consumption went from 156.4 MB to 156.4 MB.
-Total: 9.464400 ms (FindLiveObjects: 0.503400 ms CreateObjectMapping: 0.300400 ms MarkObjects: 8.630200 ms  DeleteObjects: 0.029200 ms)
+Total: 3.776900 ms (FindLiveObjects: 0.396000 ms CreateObjectMapping: 0.136900 ms MarkObjects: 3.212700 ms  DeleteObjects: 0.029800 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
